@@ -1,4 +1,9 @@
 import requests
+from atproto import Client, models
+
+base_url="https://api.bsky.app"
+
+
 
 
 def _create_session(BLUESKY_HANDLE, BLUESKY_APP_PASSWORD):
